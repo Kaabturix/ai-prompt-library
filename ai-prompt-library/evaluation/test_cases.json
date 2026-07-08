@@ -1,0 +1,38 @@
+[
+  {
+    "id": "loc-es-en-01",
+    "prompt": "localization/tone-preservation-es-en",
+    "variables": {
+      "source_text": "Oye, ¿qué onda? Hace siglos que no nos vemos, ¡qué milagro!",
+      "context": "Casual greeting between old friends, Mexican Spanish"
+    },
+    "notes": "Tests preservation of informal register and idiomatic greeting"
+  },
+  {
+    "id": "loc-es-en-02",
+    "prompt": "localization/tone-preservation-es-en",
+    "variables": {
+      "source_text": "Estimado señor Torres, le escribo para confirmar nuestra reunión del próximo lunes.",
+      "context": "Formal business email"
+    },
+    "notes": "Tests whether the prompt keeps formal register instead of flattening everything to the same neutral tone"
+  },
+  {
+    "id": "trans-de-en-01",
+    "prompt": "translation/idiom-adaptation-de-en",
+    "variables": {
+      "source_text": "Das ist nicht mein Bier.",
+      "context": "Informal conversation, someone declining responsibility"
+    },
+    "notes": "Classic German idiom meaning 'not my problem' - a literal translation would be nonsensical"
+  },
+  {
+    "id": "trans-de-en-02",
+    "prompt": "translation/idiom-adaptation-de-en",
+    "variables": {
+      "source_text": "Ich verstehe nur Bahnhof.",
+      "context": "Informal, expressing confusion"
+    },
+    "notes": "Idiom meaning 'I don't understand anything at all' - literally 'I only understand train station'"
+  }
+]

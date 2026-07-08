@@ -1,0 +1,11 @@
+# Secrets - never commit this
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated reports (keep the repo clean; the sample_report.md stays as a showcase)
+evaluation/results/
