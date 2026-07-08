@@ -18,7 +18,7 @@ handling). The goal is to demonstrate not just prompt writing, but prompt
 ai-prompt-library/
 ├── prompts/
 │   ├── localization/
-│   │   └── tone-preservation-es-en/
+│   │   └── tone-preservation-en-es/
 │   │       ├── prompt.txt      <- the actual prompt template
 │   │       └── README.md       <- problem, rationale, known failure modes
 │   └── translation/

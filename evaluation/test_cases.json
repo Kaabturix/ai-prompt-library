@@ -1,25 +1,25 @@
 [
   {
-    "id": "loc-es-en-01",
-    "prompt": "localization/tone-preservation-es-en",
+    "id": "loc-en-es-01",
+    "prompt": "localization/tone-preservation-en-es",
     "variables": {
-      "source_text": "Oye, ¿qué onda? Hace siglos que no nos vemos, ¡qué milagro!",
-      "context": "Casual greeting between old friends, Mexican Spanish"
+      "source_text": "Oh great, another Monday. Just what I needed.",
+      "context": "Casual, sarcastic remark between coworkers"
     },
-    "notes": "Tests preservation of informal register and idiomatic greeting"
+    "notes": "Tests preservation of sarcasm without flattening into overly literal or overly formal Spanish"
   },
   {
-    "id": "loc-es-en-02",
-    "prompt": "localization/tone-preservation-es-en",
+    "id": "loc-en-es-02",
+    "prompt": "localization/tone-preservation-en-es",
     "variables": {
-      "source_text": "Estimado señor Torres, le escribo para confirmar nuestra reunión del próximo lunes.",
-      "context": "Formal business email"
+      "source_text": "Hey, what's up? It's been ages since we last saw each other, what a surprise!",
+      "context": "Casual greeting between old friends"
     },
-    "notes": "Tests whether the prompt keeps formal register instead of flattening everything to the same neutral tone"
+    "notes": "Tests whether informal register comes through with natural Mexican-neutral phrasing rather than textbook Spanish"
   },
   {
-    "id": "trans-de-en-01",
-    "prompt": "translation/idiom-adaptation-de-en",
+    "id": "trans-de-es-01",
+    "prompt": "translation/idiom-adaptation-de-es",
     "variables": {
       "source_text": "Das ist nicht mein Bier.",
       "context": "Informal conversation, someone declining responsibility"
@@ -27,8 +27,8 @@
     "notes": "Classic German idiom meaning 'not my problem' - a literal translation would be nonsensical"
   },
   {
-    "id": "trans-de-en-02",
-    "prompt": "translation/idiom-adaptation-de-en",
+    "id": "trans-de-es-02",
+    "prompt": "translation/idiom-adaptation-de-es",
     "variables": {
       "source_text": "Ich verstehe nur Bahnhof.",
       "context": "Informal, expressing confusion"
