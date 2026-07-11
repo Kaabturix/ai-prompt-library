@@ -8,10 +8,10 @@
 
 | Test ID | Prompt | Accuracy | Fluency | Tone | Idiom Handling | Notes |
 |---|---|---|---|---|---|---|
-| loc-es-en-01 | tone-preservation-es-en | — | — | — | — | Pending live run |
-| loc-es-en-02 | tone-preservation-es-en | — | — | — | — | Pending live run |
-| trans-de-en-01 | idiom-adaptation-de-en | — | — | — | — | Pending live run |
-| trans-de-en-02 | idiom-adaptation-de-en | — | — | — | — | Pending live run |
+| loc-en-es-01 | tone-preservation-en-es | — | — | — | — | Pending live run |
+| loc-en-es-02 | tone-preservation-en-es | — | — | — | — | Pending live run |
+| trans-de-es-01 | idiom-adaptation-de-es | — | — | — | — | Pending live run |
+| trans-de-es-02 | idiom-adaptation-de-es | — | — | — | — | Pending live run |
 
 ## How to regenerate this report with real data
 

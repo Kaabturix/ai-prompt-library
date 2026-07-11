@@ -22,7 +22,7 @@ ai-prompt-library/
 │   │       ├── prompt.txt      <- the actual prompt template
 │   │       └── README.md       <- problem, rationale, known failure modes
 │   └── translation/
-│       └── idiom-adaptation-de-en/
+│       └── idiom-adaptation-de-es/
 │           ├── prompt.txt
 │           └── README.md
 └── evaluation/
@@ -72,7 +72,7 @@ python evaluate.py
 To run just one test case instead of all of them:
 
 ```bash
-python evaluate.py --id loc-es-en-01
+python evaluate.py --id loc-en-es-01
 ```
 
 ## Adding a new prompt
