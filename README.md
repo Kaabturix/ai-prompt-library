@@ -85,8 +85,29 @@ python evaluate.py --id loc-en-es-01
 4. Add one or more test cases to `evaluation/test_cases.json`
 5. Run `python evaluate.py --id <your-new-test-id>` to see how it scores
 
+## Limitations
+
+This evaluation system uses an LLM (Claude) both to generate translations
+and to judge their quality — a technique known as "LLM-as-judge." This is
+useful for catching obvious issues at scale (literal translations, tone
+loss, mistranslations) consistently and quickly, but it is **not**:
+
+- A certified or legally-recognized translation validation
+- A substitute for professional human review, especially for legal,
+  medical, or otherwise high-stakes content
+- An objective third-party authority (there is no linguistic institution
+  or standards body involved — the scoring reflects the rubric criteria
+  defined in this project)
+
+The judge model and the generation model are the same underlying system,
+which means they may share systematic blind spots. This tool is best
+understood as a fast, consistent first-pass quality check — not a
+replacement for expert human judgment.
+
 ## About this project
 
 Built as part of a portfolio focused on language technology — the
 intersection of translation/localization expertise and practical AI
 tooling. Feedback and pull requests welcome.
+
+This is precisely where a human translator's expertise remains essential — validating nuance, cultural context, and high-stakes accuracy that automated scoring can approximate but not guarantee.
